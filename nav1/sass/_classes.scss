@@ -1,0 +1,23 @@
+body nav .nav-links li.nav-links-fade {
+    opacity: 1;
+    transition: 1s ease-out 0.25s;
+}
+
+body nav ul.nav-links-active {
+    transform: translateX(0%);
+}
+
+.toggle-burger-middle {
+    opacity: 0;
+    transition: 0.25s ease-out;
+}
+
+.toggle-burger-top {
+    transform: rotate(-45deg) translate(-5px, 6px);
+    transition: 0.25s ease-out;
+}
+
+.toggle-burger-bottom {
+    transform: rotate(45deg) translate(-5px, -6px);
+    transition: 0.25s ease-out;
+}
